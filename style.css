@@ -1,3 +1,6 @@
+:root{
+    --blue: linear-gradient(270deg, rgb(5, 13, 11) 78%, rgb(69, 238, 244));
+}
 .nav {margin-left: 0px;
     padding-left: 0px;
     list-style: none;
@@ -34,4 +37,54 @@ span a {
 }
 nav a:hover{
     border-bottom: 3px solid rgb(246, 247, 247)
+}
+.flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.box2 h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.box2 h3{
+    margin: 40px;
+    padding: 0;
+    text-align: center;
+    }
+.box2 p{
+    margin: 0;
+    padding: 15px;
+    border:2px groove rgb(69, 238, 244);
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 70px;
+    text-align: center;
+}
+.box2 {
+    border: 2px groove black;
+    background-color: rgb(5, 13, 11);
+    width: 400px;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: rgb(69, 238, 244);
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    transition: 00.5s;
+    opacity: 0.5;
+}
+.box2:hover {
+    opacity: 1;
+
+}
+.img {
+    box-shadow: 0 0 20px black;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.img:hover{
+    transform: scale(1.2);
 }
