@@ -44,6 +44,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     gap: 50px;
+    min-width: 200px;
 }
 .box2 h1{
     margin: 0;
@@ -51,7 +52,7 @@ nav a:hover{
     text-align: center;
 }
 .box2 h3{
-    margin: 40px;
+    margin: 15px;
     padding: 0;
     text-align: center;
     }
@@ -61,8 +62,9 @@ nav a:hover{
     border:2px groove rgb(69, 238, 244);
     width: 200px;
     margin-left: 90px;
-    margin-top: 70px;
+    margin-top: 5px;
     text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 .box2 {
     border: 2px groove black;
@@ -88,3 +90,52 @@ nav a:hover{
 .img:hover{
     transform: scale(1.2);
 }
+
+.contacts-container {
+    display: flex;
+    background-color: black;
+    color: rgb(69, 238, 244);
+    margin-top: 50px;
+    width: 800px;
+    height: 180px;
+    margin-left: 210px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow:0 0 10px black;
+    }
+.contacts-container a{
+     color: #fff;
+    }
+    
+.line {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 340px;
+        }
+.line h4 {
+    margin: 0;
+    padding: 5px 5px 5px 0px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+}
+.line p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Wallpoet', cursive;
+    font-size: 15px;
+    color: aqua;
+}
+.title {
+    position: relative;
+    left: 160px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    } 
+
+a  {
+       text-decoration: none;
+   }
