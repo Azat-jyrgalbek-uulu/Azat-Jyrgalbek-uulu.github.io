@@ -7,7 +7,8 @@
     <title>my site</title>
     <link rel="icon" type="image/x-ico" href="/фото/favicon.ico" />
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu+Mono&family=Pacifico&family=Wallpoet&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/02a81abf35.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header >
@@ -34,112 +35,109 @@
           </li>
         </ul>
       </nav>
-      <img src="фото/azat'sphoto.jpeg" alt="azat's photo" width="300" />
-      <h1>Azat Zhyrgalbek uulu</h1>
-      <h3>Beginner Front-End developer</h3>
-      <p>
-        well I think in this way of programming I will achieve some success
-        while I will try to give my best wish me good luck
-      </p>
-      <h3>Contacts</h3>
-      <ul>
-        <li title="Call Azat">
-          <h4>Phone number</h4>
+       <div class="flex-container">
+         <div class="box1"><img class="img" src="img/azat'sphoto.jpeg" alt="azat's photo" width="300" /></div>
+          <div class="box2">
+              <h1>Azat Zhyrgalbek uulu</h1>
+              <h3>Beginner Front-End developer</h3>
+            <p>
+             "well I think in this way of programming I will achieve some success
+             while I will try to give my best wish me good luck"
+            </p>
+          </div>
+        </div>
+     <div class="contacts-container">
+       <div class="title"><h3>Contacts</h3></div>
+        <ul class="line">
+          <li title="Call Azat">
+          <h4><i class="fa-solid fa-phone"></i>  Phone number</h4>
           <p>
             <a href="tel:+996703797837">+996703797837</a>
           </p>
-        </li>
+          </li>
         <li>
-          <h4>Location</h4>
+          <h4><i class="fa-solid fa-location-dot"></i>   Location</h4>
           <p>Kyrgyz Republic, Bishkek</p>
         </li>
         <li title="Go to mail">
-          <h4>Email</h4>
+          <h4><i class="fa-solid fa-envelope"></i>  Email</h4>
           <p>
             <a href="mailto:azat.jyrgalbekuulu.alt@gmail.com"
               >azat.jyrgalbekuulu.alt@gmail.com</a
             >
           </p>
         </li>
-      </ul>
-    </header>
-    <main>
-      <section id="Skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML(beginner)</li>
-          <li>PhotoShop(beginner)</li>
         </ul>
+      </div>
+    </header>
+    <main class="grid-container">
+      <section class="block-1" id="Skills">
+           <h2 class="inside-block2">Skills</h2> 
+           <ul class="inside-block">
+              <li class="miniblock"><i class="fa-brands fa-html5"></i></li>
+              <li class="miniblock"><i class="fa-brands fa-css3-alt"></i></li>
+            </ul>
       </section>
-      <section id="CodeExample">
-        <h2>Code Example</h2>
-        <pre>
-            <code>
+      <section class="block-2" id="CodeExample">
+        <h2 class="in-block-CE1">Code Example</h2>
+       <!-- <pre>-->
+            <code class="in-block-CE2">
                     &lt;li title="Call Azat"&gt;
                     &lt;h4&gt;Phone number&lt;/h4&gt;
                     &lt;a href="tel:+996703797837"&gt;+996703797837&lt;/a&gt;
             </code>
-          </pre>
+        <!--</pre>--> 
       </section>
-      <section id="Portfolio">
-        <h2>Portfolio</h2>
-        <ul>
+      <section class="block-3" id="Portfolio">
+        <h2 class="topic">Portfolio</h2>
+        <ul class="list">
           <li>FreeBootCamp</li>
         </ul>
-        <img src="фото/СнимокЭкрана(14).png" width="1080" alt="Sertificate" />
-        <ul>
-          <li>HTML</li>
+        <img class="img-f" src="img/СнимокЭкрана(14).png" width="350" alt="Sertificate" />
+        <ul class="list2">
+          <li>CodeAcademy</li>
         </ul>
-        <img src="фото/СнимокЭкрана(8).png" width="1080" alt="sertificate" />
+        <img class="img-f" src="img/СнимокЭкрана(8).png" width="350" alt="sertificate" />
       </section>
-      <section id="Languages">
-        <h2>Languages</h2>
-        <ul>
-          <li>
-            English
-            <b> (A1) </b>
+      <section class="block-4" id="Languages">
+        <h2 class="lang">Languages</h2>
+        <ul class="liststyle">
+          <li class="flag1">
+              <b>A1</b>
           </li>
-          <li>
-            Russian
-            <b> (fluent) </b>
+          <li class="flag2">
+            <b>fluent</b>
           </li>
-          <li>
-            Kyrgyz
-            <b> (nativespeaker) </b>
+          <li class="flag3">
+            <b>nativespeaker</b>
           </li>
         </ul>
       </section>
-      <section id="Education">
-        <h2>Education</h2>
-        <ul>
+      <section class="block-5"id="Education">
+        <h2><i class="fa-solid fa-graduation-cap"></i>Education</h2>
+        <ul class="educ">
           <li>Istitute of Social Development and Business (2013-2016)</li>
           <li>Bishkek Humanitarian University (2016-2019)</li>
         </ul>
       </section>
+      <div class="rrr"> </div>
     </main>
     <footer>
-      <section>
-        <h6>&copy;2022</h6>
-        <ul>
-          <li>
+      <section class="footercont">
+        <h6 class="footer-title">&copy;2022</h6>
+        <ul class="footer-list">
+          <li class="thelists1">
             <a href="https://www.instagram.com/zhyrgalbekovazat_/" title="go to"
-              >Instagram</a
+              ><i class="fa-brands fa-instagram"></i></a
             >
-            <img src="фото/favicon.ico.png" width="16" alt="insta icon" />
           </li>
-          <li>
+          <li class="thelists2">
             <a href="mailto:azat.jyrgalbekuulu.alt@gmail.com" title="go to"
-              >GMAIL</a
+              ><i class="fa-solid fa-envelope"></i></a
             >
-            <img
-              src="фото/gmail_new_logo_icon_159149.png"
-              alt="icon"
-              width="16"
-            />
           </li>
-          <li>
-            <a href="https://linktr.ee/jyldyzacademy2020">jyldyzAcademy</a>
-            <img src="фото/logoJA.png" alt="icon" width="16" />
+          <li class="thelists3">
+            <a href="https://linktr.ee/jyldyzacademy2020"><i class="fa-solid fa-star"></i></a>
           </li>
         </ul>
       </section>
